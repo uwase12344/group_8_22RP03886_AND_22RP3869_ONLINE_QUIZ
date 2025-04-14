@@ -25,6 +25,7 @@
                 <div class="card-body">
                     <form method="POST" action="{{ route('admin.login') }}">
                         @csrf
+                        
 
                         <div class="mb-4">
                             <label for="email" class="form-label">
